@@ -1,4 +1,15 @@
+<?php
 
+
+$testo= 'Oggi è una bella giornata e ho deciso di leggere un libro in giardino';
+
+$lunghezzaTesto = strlen($testo);
+
+
+
+
+
+?>
 
 
 
@@ -18,7 +29,16 @@
     <title>Document</title>
 </head>
 <body>
-    
+
+
+
+<h1><?php echo $testo ?></h1>
+
+<h2>La lunghezza del testo è di <?php echo $lunghezzaTesto ?> caratteri</h2>
+
+
+
+
 </body>
 </html>
 
